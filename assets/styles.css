@@ -1,0 +1,66 @@
+/*
+<input type="text" id="inputvar">
+<button class ="Roll"> Roll!</button>
+<div class ="Output"> Output</div>
+<button class = "ShowAllRolls"> Show All Rolls</button>
+<button class = "Reset">Reset</button>
+<div class = "ShowAllRollsOutput"></div>
+
+*/
+.body{
+    background-color: yellow;
+}
+
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#inputvar{
+    
+}
+
+.Roll{
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.Output{
+    font-size:  20px;
+    color: teal;
+
+}
+
+.ShowAllRolls{
+  background-color:blueviolet; 
+  border: none;
+  color: white;
+  padding: 10px ;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+}
+.Reset{
+  background-color:rgb(226, 43, 43); 
+  border: none;
+  color: white;
+  padding: 10px 36px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+
+}
+
+.flexbox-container p{
+  color: black;
+  font-size: 20px;
+}
